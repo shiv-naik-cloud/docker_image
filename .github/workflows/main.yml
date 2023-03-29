@@ -19,5 +19,5 @@ jobs:
         run: |
            pwd
            ls -al
-           docker build . --file Dockerfile --tag shiv1996/hello-world:test
+           docker build . --file Dockerfile --tag shiv1996/hello-world:test123
            docker push shiv1996/hello-world:test
